@@ -12,7 +12,7 @@ const PricingCard = () => {
             Choose the plan that fits your needs. Upgrade or downgrade anytime.
           </p>
         </div>
-        <div className="grid grid-cols-3 py-10 mt-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10 mt-5">
             {/* card 1 */}
           <div className="card w-96 bg-[#F9FAFC] shadow-sm rounded-3xl">
             <div className="card-body">

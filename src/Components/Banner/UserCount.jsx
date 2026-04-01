@@ -3,7 +3,7 @@ import React from 'react';
 const UserCount = () => {
     return (
         <div className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] py-15 my-15'>
-            <div className='container mx-auto flex justify-around items-center'>
+            <div className='md:container md:mx-auto flex flex-col md:flex-row md:justify-around md:items-center'>
                 <div className='pl-10'>
                     <h2 className='font-extrabold text-[50px] text-white'>50K+</h2>
                     <p className='font-medium text-[24px] text-white/70'>Active Users</p>

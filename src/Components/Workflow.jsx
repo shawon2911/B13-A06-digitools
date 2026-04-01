@@ -3,7 +3,7 @@ import React from 'react';
 const Workflow = () => {
     return (
         <div className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] py-30 mt-15'>
-            <div className='container mx-auto text-center space-y-6 flex flex-col items-center'>
+            <div className='md:container md:mx-auto text-center space-y-6 flex flex-col items-center'>
                 <h2 className='font-extrabold text-[40px] text-white'>Ready to Transform Your Workflow?</h2>
                 <p className='text-white/70 max-w-[500px]'>Join thousands of professionals who are already using Digitools to work smarter.Start your free trial today.</p>
                 <div className='flex items-center gap-5 text-center justify-center pt-5'>

@@ -4,7 +4,7 @@ import { CiShoppingCart } from "react-icons/ci";
 const Navbar = () => {
   return (
     <div className="border-b border-gray-200">
-      <div className="navbar bg-base-100  container mx-auto py-4">
+      <div className="navbar bg-base-100  md:container md:mx-auto py-4">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,9 +43,13 @@ const Navbar = () => {
               <li>
                 <a className="font-semibold text-[#101727]">FAQ</a>
               </li>
+             <li>
+               <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full  ">Get Started</a>
+             </li>
             </ul>
+             
           </div>
-          <a className="font-bold text-4xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">DigiTools</a>
+          <a className="font-bold text-3xl md:text-4xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">DigiTools</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -67,11 +71,11 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end gap-5">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 mr-5 md:mr-0">
             <CiShoppingCart/>
             <h3 className="font-semibold text-[#101727]">Login</h3>
           </div>
-          <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full">Get Started</button>
+          <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full hidden md:block">Get Started</button>
         </div>
       </div>
     </div>

@@ -16,7 +16,7 @@ const StepsCard = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-3 gap-1 mt-15">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 mt-15">
           {/* this is the steps card-1 */}
           <div className="bg-white shadow-sm pt-5 pb-20 px-8 max-w-[380px] rounded-2xl">
             <div className="flex justify-end items-center">
