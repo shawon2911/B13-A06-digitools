@@ -9,7 +9,7 @@ const ToolCard = ({tool, cart, setCart}) => {
     }
     
     return (
-        <div className='shadow-md hover:shadow-2xl mx-2 md:mx-0 rounded-2xl px-12 py-12 space-y-5'>
+        <div className='shadow-md hover:shadow-2xl transition-all mx-2 md:mx-0 rounded-2xl px-12 py-12 space-y-5'>
             <div className='flex justify-between items-center'>
                 <span className='p-3 rounded-full border border-gray-300 '>
                     <img src={tool.icon} alt="" />

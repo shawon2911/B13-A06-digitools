@@ -11,7 +11,7 @@ const Cart = ({ cart, setCart }) => {
     <div>
       {cart.length === 0 ? (
         <div>
-          <div className="h-50 flex justify-center items-center flex-col gap-4">
+          <div className="h-50 flex justify-center items-center flex-col gap-4 border border-gray-200 rounded-2xl my-10">
             <h3 className="font-bold text-2xl">No Item Selected Yet</h3>
             <h4 className="font-semibold text-gray-500 text-2xl">
               Go to Products tab to select items
@@ -19,12 +19,12 @@ const Cart = ({ cart, setCart }) => {
           </div>
         </div>
       ) : (
-        <div className="border border-gray-200 rounded-2xl mt-10 py-10 px-10 max-w-6xl mx-auto">
+        <div className="border border-gray-200 rounded-2xl my-15 py-10 px-10 max-w-6xl mx-auto">
           <h3 className="font-bold text-2xl">Your Cart</h3>
           {cart.map((c, index) => (
             <div
               key={index}
-              className="bg-base-200 rounded-xl my-5 py-5 px-10 flex justify-between items-center"
+              className="bg-base-200 rounded-xl my-5 py-5 px-10 flex flex-col md:flex-row md:justify-between md:items-center"
             >
               <div className="flex items-center gap-5">
                 <span className="p-3 rounded-full bg-white border border-gray-300 ">
@@ -40,7 +40,7 @@ const Cart = ({ cart, setCart }) => {
               <div>
                 <button
                   onClick={() => handleDelete(c)}
-                  className=" btn text-xl text-red-700"
+                  className=" btn text-xl text-red-700 mt-5 md:mt-0"
                 >
                   Remove
                 </button>

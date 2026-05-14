@@ -14,7 +14,7 @@ const PricingCard = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 gap-10  ">
             {/* card 1 */}
-          <div className="card max-w-[380px]   mx-5 md:mx-0   bg-[#F9FAFC] shadow-sm rounded-3xl">
+          <div className="card max-w-[380px] hover:scale-[1.02] hover:shadow-lg transition-all   mx-5 md:mx-0   bg-[#F9FAFC] shadow-sm rounded-3xl">
             <div className="card-body">
               
               <div className="">
@@ -100,7 +100,7 @@ const PricingCard = () => {
           </div>
 
           {/* card 2 */}
-          <div className="relative card max-w-[380px]   mx-5 md:mx-0  bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white shadow-sm rounded-3xl">
+          <div className="relative card max-w-[380px] hover:scale-[1.02] hover:shadow-lg hover:shadow-purple-900 transition-all   mx-5 md:mx-0  bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white shadow-sm rounded-3xl">
             <div className="card-body">
                 <span className="absolute badge badge-xl bg-[#FEF3C6] text-[#BB4D00] -top-4 left-30 rounded-full">Most Popular</span>
               
@@ -187,7 +187,7 @@ const PricingCard = () => {
           </div>
 
           {/* card 3 */}
-          <div className="card max-w-[380px]   mx-5 md:mx-0  bg-[#F9FAFC] shadow-sm rounded-3xl">
+          <div className="card max-w-[380px] hover:scale-[1.02] hover:shadow-lg transition-all  mx-5 md:mx-0  bg-[#F9FAFC] shadow-sm rounded-3xl">
             <div className="card-body">
               
               <div className="">

@@ -18,7 +18,7 @@ const StepsCard = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-15  lg:ml-20 ">
           {/* this is the steps card-1 */}
-          <div className="bg-white shadow-sm pt-5 pb-20 px-8 max-w-[380px] mx-auto    rounded-2xl">
+          <div className="bg-white shadow-sm pt-5 pb-20 px-8 max-w-[380px] mx-auto hover:scale-[1.02] hover:shadow-md    rounded-2xl">
             <div className="flex justify-end items-center">
               <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white py-2 px-3  rounded-full ">
                 {" "}
@@ -40,7 +40,7 @@ const StepsCard = () => {
           </div>
 
           {/* this is the steps card-2 */}
-          <div className="bg-white shadow-sm pt-5 pb-20 px-8 max-w-[380px] mx-auto  rounded-2xl">
+          <div className="bg-white shadow-sm pt-5 pb-20 px-8 max-w-[380px] mx-auto hover:scale-[1.02] hover:shadow-md  rounded-2xl">
             <div className="flex justify-end items-center">
               <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white py-2 px-3  rounded-full ">
                 {" "}
@@ -61,7 +61,7 @@ const StepsCard = () => {
           </div>
 
           {/* this is the steps card-3 */}
-          <div className="bg-white shadow-sm pt-5 pb-20 px-8 max-w-[380px] mx-auto  rounded-2xl">
+          <div className="bg-white shadow-sm pt-5 pb-20 px-8 max-w-[380px] mx-auto hover:scale-[1.02] hover:shadow-md  rounded-2xl">
             <div className="flex justify-end items-center">
               <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white py-2 px-3  rounded-full ">
                 {" "}
