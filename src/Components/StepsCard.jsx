@@ -7,18 +7,18 @@ const StepsCard = () => {
   return (
     <div className="bg-[#F9FAFC] py-20">
       <div className="container mx-auto">
-        <div className="text-center space-y-3">
-          <h2 className="font-extrabold text-[45px] text-[#101727]">
+        <div className="text-center space-y-3 max-w-[300px] mx-auto md:max-w-full ">
+          <h2 className="font-bold md:font-extrabold text-[38px] md:text-[45px] text-[#101727] ">
             Get Started in 3 Steps
           </h2>
-          <p className="text-[#627382] text-[20px]">
+          <p className="text-[#627382] text-[18px] md:text-[20px] px-2 ">
             Start using premium digital tools in minutes, not hours.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 mt-15">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-15  lg:ml-20 ">
           {/* this is the steps card-1 */}
-          <div className="bg-white shadow-sm pt-5 pb-20 px-8 max-w-[380px] rounded-2xl">
+          <div className="bg-white shadow-sm pt-5 pb-20 px-8 max-w-[380px] mx-auto    rounded-2xl">
             <div className="flex justify-end items-center">
               <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white py-2 px-3  rounded-full ">
                 {" "}
@@ -40,7 +40,7 @@ const StepsCard = () => {
           </div>
 
           {/* this is the steps card-2 */}
-          <div className="bg-white shadow-sm pt-5 pb-20 px-8 max-w-[380px] rounded-2xl">
+          <div className="bg-white shadow-sm pt-5 pb-20 px-8 max-w-[380px] mx-auto  rounded-2xl">
             <div className="flex justify-end items-center">
               <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white py-2 px-3  rounded-full ">
                 {" "}
@@ -61,7 +61,7 @@ const StepsCard = () => {
           </div>
 
           {/* this is the steps card-3 */}
-          <div className="bg-white shadow-sm pt-5 pb-20 px-8 max-w-[380px] rounded-2xl">
+          <div className="bg-white shadow-sm pt-5 pb-20 px-8 max-w-[380px] mx-auto  rounded-2xl">
             <div className="flex justify-end items-center">
               <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white py-2 px-3  rounded-full ">
                 {" "}

@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "A basic resume building package for freshers and entry-level professionals.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["10+ templates", "Basic customization", "Export to PDF"],
+    "icon": "https://i.ibb.co.com/8C3FK6K/img1.png"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with ATS optimization and modern templates.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Cover letter builder"],
+    "icon": "https://i.ibb.co.com/QFX3x591/img2.png"
+  },
+  {
+    "id": 3,
+    "name": "Career Boost Plan",
+    "description": "Full suite including resume, cover letter, and LinkedIn optimization.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["LinkedIn optimization", "Personal branding tools", "Priority support"],
+    "icon": "https://i.ibb.co.com/QF7bTzjK/img3.png"
+  },
+  {
+    "id": 4,
+    "name": "Freelancer Toolkit",
+    "description": "Tools designed for freelancers to create proposals and resumes.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Proposal templates", "Portfolio builder", "Client tracking"],
+    "icon": "https://i.ibb.co.com/8LFxZ09c/img4.png"
+  },
+  {
+    "id": 5,
+    "name": "Executive Resume Pack",
+    "description": "Premium resume services for senior professionals and executives.",
+    "price": 99.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Executive templates", "Personal consultation", "Custom branding"],
+    "icon": "https://i.ibb.co.com/x8fwzq0y/img5.png"
+  },
+  {
+    "id": 6,
+    "name": "Student Starter Pack",
+    "description": "Simple and affordable resume tools for students.",
+    "price": 4.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["5+ templates", "Easy editor", "Download as PDF"],
+    "icon": "https://i.ibb.co.com/KxW3ZzFm/img6.png"
+  }
+  
+]
+
+
+
+
+
+
+
+
+
+
+
+

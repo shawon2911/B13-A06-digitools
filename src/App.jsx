@@ -6,6 +6,7 @@ import Footer from './Components/Footer'
 import Navbar from './Components/Navbar/Navbar'
 import PricingCard from './Components/PricingCard'
 import StepsCard from './Components/StepsCard'
+import Tool from './Components/Tool/Tool'
 import Workflow from './Components/Workflow'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Navbar></Navbar>
     <Banner></Banner>
     <UserCount></UserCount>
+    <Tool></Tool>
     <StepsCard></StepsCard>
     <PricingCard></PricingCard>
     <Workflow></Workflow>

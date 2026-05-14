@@ -5,16 +5,16 @@ const PricingCard = () => {
     <div className="py-10 mt-10">
       <div className="container mx-auto">
         <div className="text-center space-y-3">
-          <h2 className="font-extrabold text-[45px] text-[#101727]">
+          <h2 className="font-bold text-[38px] md:text-[45px] text-[#101727]">
             Simple, Transparent Pricing
           </h2>
-          <p className="text-[#627382] text-[20px]">
+          <p className="text-[#627382] text-[18px] md:text-[20px]">
             Choose the plan that fits your needs. Upgrade or downgrade anytime.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10 mt-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 gap-10  ">
             {/* card 1 */}
-          <div className="card w-96 bg-[#F9FAFC] shadow-sm rounded-3xl">
+          <div className="card max-w-[380px]   mx-5 md:mx-0   bg-[#F9FAFC] shadow-sm rounded-3xl">
             <div className="card-body">
               
               <div className="">
@@ -100,7 +100,7 @@ const PricingCard = () => {
           </div>
 
           {/* card 2 */}
-          <div className="relative card w-96 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white shadow-sm rounded-3xl">
+          <div className="relative card max-w-[380px]   mx-5 md:mx-0  bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white shadow-sm rounded-3xl">
             <div className="card-body">
                 <span className="absolute badge badge-xl bg-[#FEF3C6] text-[#BB4D00] -top-4 left-30 rounded-full">Most Popular</span>
               
@@ -187,7 +187,7 @@ const PricingCard = () => {
           </div>
 
           {/* card 3 */}
-          <div className="card w-96 bg-[#F9FAFC] shadow-sm rounded-3xl">
+          <div className="card max-w-[380px]   mx-5 md:mx-0  bg-[#F9FAFC] shadow-sm rounded-3xl">
             <div className="card-body">
               
               <div className="">

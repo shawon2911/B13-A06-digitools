@@ -5,17 +5,17 @@ const Banner = () => {
   return (
     <div className="md:container md:mx-auto py-10 md:mt-10 flex flex-col lg:flex-row lg:items-center lg:justify-around">
       <div className="banner-left space-y-8 md:space-y-4">
-        <div className="flex justify-center   md:items-center  gap-2 bg-[#E1E7FF] py-2 px-4 mx-10 md:mx-0 rounded-full md:max-w-[300px]">
+        <div className="flex justify-center   md:items-center  gap-2 bg-[#E1E7FF] py-2 md:px-10  mx-10 md:mx-0 rounded-full md:max-w-[350px] ">
           <div className="h-5 w-5 bg-purple-400 rounded-full flex justify-center items-center  ">
             <span className="w-2 h-2 bg-purple-600 rounded-full "></span>
           </div>
-
-          
-            <h3 className="font-medium bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent ">
+          <h3 className="font-medium bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent ">
             New: AI-Powered Tools Available
           </h3>
           
         </div>
+
+          
         <h1 className="font-bold text-center md:text-left text-4xl md:text-[70px] ">
           Supercharge Your <br /> Digital Workflow
         </h1>
