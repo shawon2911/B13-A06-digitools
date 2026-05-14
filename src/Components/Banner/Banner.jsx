@@ -27,8 +27,8 @@ const Banner = () => {
           <p>Explore Products</p>
         </div>
         <div className="flex justify-center md:justify-start items-center gap-4">
-            <button className="btn font-medium md:font-bold text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full md:py-6 md:px-5 ">Explore Products</button>
-            <button className="btn btn-outline bg-transparent font-medium md:font-bold text-purple-700 rounded-full md:py-6 md:px-5 "><img src={playBtn} alt=""  />Watch Demo</button>
+            <button className="btn font-medium md:font-bold text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full md:py-6 md:px-5 hover:scale-[1.02] hover:shadow-sm">Explore Products</button>
+            <button className="btn btn-outline bg-transparent font-medium md:font-bold text-purple-700 rounded-full md:py-6 md:px-5 hover:scale-[1.02] hover:shadow-sm"><img src={playBtn} alt=""  />Watch Demo</button>
         </div>
       </div>
       <div className="banner-right mt-10 md:mt-0 ">

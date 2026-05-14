@@ -54,19 +54,19 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a className="font-semibold text-[#101727]">Products</a>
+              <a className="font-semibold text-[#101727] hover:text-purple-900">Products</a>
             </li>
             <li>
-              <a className="font-semibold text-[#101727]">Features</a>
+              <a className="font-semibold text-[#101727] hover:text-purple-900">Features</a>
             </li>
             <li>
-              <a className="font-semibold text-[#101727]">Pricing</a>
+              <a className="font-semibold text-[#101727] hover:text-purple-900">Pricing</a>
             </li>
             <li>
-              <a className="font-semibold text-[#101727]">Testimonials</a>
+              <a className="font-semibold text-[#101727] hover:text-purple-900">Testimonials</a>
             </li>
             <li>
-              <a className="font-semibold text-[#101727]">FAQ</a>
+              <a className="font-semibold text-[#101727] hover:text-purple-900">FAQ</a>
             </li>
           </ul>
         </div>
@@ -75,7 +75,7 @@ const Navbar = () => {
             <CiShoppingCart/>
             <h3 className="font-semibold text-[#101727]">Login</h3>
           </div>
-          <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full hidden md:block">Get Started</button>
+          <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full hidden md:block hover:scale-[1.02] hover:shadow-lg">Get Started</button>
         </div>
       </div>
     </div>
