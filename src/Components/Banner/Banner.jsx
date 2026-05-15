@@ -1,5 +1,5 @@
 import React from "react";
-import playBtn from "../../assets/play.png"
+import playBtn from "../../assets/Play.png"
 import banner from "../../assets/banner.png"
 const Banner = () => {
   return (
