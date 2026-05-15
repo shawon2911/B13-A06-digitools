@@ -1,11 +1,13 @@
 import React from 'react';
 import { IoCheckmarkSharp } from 'react-icons/io5';
+import { toast } from 'react-toastify';
 
 const ToolCard = ({tool, cart, setCart}) => {
     // console.log(cart);
     // console.log(tool);
     const handleTools = () => {
         setCart([...cart, tool]);
+        toast.success(`${tool.name} is added to cart`);
     }
     
     return (

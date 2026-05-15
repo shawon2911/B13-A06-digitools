@@ -1,16 +1,172 @@
-# React + Vite
+# 🎯 Digital Tools Buying Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive digital tools marketplace built with React.js, Tailwind CSS, and DaisyUI. Users can browse digital products, add them to cart, remove products, and proceed to checkout with real-time toast notifications.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 Live Site: https://your-live-link.netlify.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 GitHub Repository: https://github.com/your-username/your-repo-name
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Project Overview
+
+This project is a fully responsive digital tools buying website where users can explore different digital products and manage their shopping cart interactively.
+
+The application includes product toggling, dynamic cart management, toast notifications, responsive layouts, and a clean modern UI based on the provided Figma design.
+
+---
+
+## ⚙️ Technologies Used
+
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- DaisyUI
+- React-Toastify
+- JSON Data
+
+---
+
+## ✨ Main Features
+
+### 🛒 Dynamic Cart Functionality
+- Add products to cart
+- Remove selected products
+- Proceed to checkout clears all products
+- Cart count updates dynamically in navbar
+
+### 🔔 Toast Notifications
+- Added to cart notification
+- Product removed notification
+- Checkout success notification
+
+### 📱 Fully Responsive Design
+- Mobile responsive
+- Tablet responsive
+- Desktop optimized
+
+---
+
+## 📦 Product Information
+
+Each product contains:
+
+- ID
+- Name
+- Description
+- Price
+- Billing Period
+- Tag
+- Tag Type
+- Features Array
+- Icon
+
+---
+
+## 🎨 Sections Included
+
+- Navbar
+- Hero Banner
+- Stats Section
+- Products Section
+- Cart Section
+- Steps Section
+- Pricing Section
+- Footer
+
+---
+
+## 🔄 Toggle Functionality
+
+- Product section visible by default
+- Clicking "Cart" shows cart section
+- Clicking "Products" shows products section
+
+---
+
+## 📸 UI Features
+
+- 3-column product card layout
+- Single-column cart layout
+- Beautiful card design
+- Interactive buttons
+- Modern responsive UI
+
+---
+
+## 📂 Folder Structure
+
+```bash
+src/
+│
+├── components/
+├── pages/
+├── assets/
+├── data/
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🧪 NPM Packages Used
+
+```bash
+npm install react-toastify
+```
+
+---
+
+## ▶️ Run Locally
+
+Clone the project
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+```
+
+Go to the project directory
+
+```bash
+cd your-repo-name
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌟 Optional Features Implemented
+
+✅ Cart count updates dynamically
+
+✅ Buy Now button shows "Added to cart"
+
+✅ Toast notifications for all cart actions
+
+✅ Total selected product price calculation
+
+---
+
+## 👨‍💻 Author
+
+Developed by Your Name
+
+---
+
+## 📄 License
+
+This project is created for educational purposes.

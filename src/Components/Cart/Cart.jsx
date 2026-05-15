@@ -1,4 +1,5 @@
 import React from "react";
+import { toast } from "react-toastify";
 
 const Cart = ({ cart, setCart }) => {
   // console.log(cart);
@@ -6,7 +7,12 @@ const Cart = ({ cart, setCart }) => {
   const handleDelete = (c) => {
     const filteredItem = cart.filter((item) => item.name !== c.name);
     setCart(filteredItem);
+    toast.error(`${c.name}, "is deleted!!"`);
   };
+  const clearAllItem = () => {
+    setCart([]);
+    toast.success("Ordered placed Succesfully!")
+  }
   return (
     <div>
       {cart.length === 0 ? (
@@ -51,7 +57,7 @@ const Cart = ({ cart, setCart }) => {
             <span className="text-xl font-bold">Total:</span>{" "}
             <span className="text-2xl font-bold">${totalPrice}</span>
           </h3>
-          <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-[16px] text-white w-full rounded-full py-6 mt-5">
+          <button onClick={clearAllItem} className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-[16px] text-white w-full rounded-full py-6 mt-5">
             Proceed to Checkout
           </button>
         </div>
